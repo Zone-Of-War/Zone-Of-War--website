@@ -1,6 +1,10 @@
 .Navbar{
   text-decoration: none;
+  justify-content: space-between;
+  padding: inherit;
+  margin-top: 0px;
 }
+
 
 * {
   padding: 0;
@@ -12,26 +16,30 @@
 } */
 
 header {
-  /* display: block;
-  display: flex;
-  background-color: grey;
-  text-align: center; */
+  justify-content: space-between;
+  text-align: right;
+  padding-right: 5em;
 }
 
 nav {
   display: block;
 }
 
+
 nav li {
-  float: right;
+  text-align: center;
+  display: inline-table;
+  text-decoration: none;
+
 }
 
 nav li a {
   display: inline-block;
   text-align: center;
+  align-items: center;
 }
 
-/*
+
 body {
-  text-decoration: none
-} */
+
+}
