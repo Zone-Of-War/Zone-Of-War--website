@@ -4,7 +4,7 @@
   padding: 0;
 }
 body{
-  background: url("./img/Screen_Shot_2021-01-03_at_17.21.01.png")
+  /* background: url("./img/Screen_Shot_2021-01-03_at_17.21.01.png") */
 }
 
 header {
@@ -126,4 +126,14 @@ header {
   .menu {
     display: initial;
   }
+}
+
+/* hero section */
+
+.first_section {
+  height: 800px;
+  height: 80vh;
+  position: relative;
+  background-position: cover;
+  background-image: url(img/Screen_Shot_2020-12-14_at_15.42.05.png);
 }
