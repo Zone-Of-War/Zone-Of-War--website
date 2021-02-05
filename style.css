@@ -10,23 +10,30 @@ body{
 /* Navbar */
 
 header {
+  width: 100%;
   position: fixed;
-  z-index: 100;
+  padding-left: 7em;
+  padding-right: 7em;
+  margin: 20px auto;
+  z-index: 1;
   display: flex;
-  justify-content: flex-end;
   align-items: center;
-  padding: 30px 10%;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
 }
 
 .ZOW_logo {
   width: 220px;
   margin-right: auto;
-
-}
-
-.nav__links {
-  list-style: none;
-  display: flex;
 }
 
 .nav__links a,
@@ -37,11 +44,6 @@ header {
   font-weight: 500;
   color: #edf0f1;
   text-decoration: none;
-}
-
-.nav__links li {
-  padding: 0px 20px;
-  display: inline-block;
 }
 
 .nav__links li a {
