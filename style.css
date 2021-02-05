@@ -18,8 +18,10 @@ header {
   padding: 30px 10%;
 }
 
-.logo {
+.ZOW_logo {
+  width: 220px;
   margin-right: auto;
+
 }
 
 .nav__links {
@@ -136,8 +138,7 @@ header {
 
 .first_hero {
   height: 90vh;
-  position: relative;
-  background-position: cover;
+  background-size: cover;
   background-image: url(img/Screen_Shot_2020-12-14_at_15.42.05.png);
 }
 
