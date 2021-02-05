@@ -33,6 +33,8 @@ header {
 .cta,
 .overlay__content a {
   font-family: "Montserrat", sans-serif;
+  position: relative;
+  left: 40em;
   font-weight: 500;
   color: #edf0f1;
   text-decoration: none;
