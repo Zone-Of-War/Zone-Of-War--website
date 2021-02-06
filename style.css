@@ -144,7 +144,8 @@ nav ul li {
 .first_hero {
   height: 90vh;
   background-size: cover;
-  background-image: url(img/Screen_Shot_2020-12-14_at_15.42.05.png);
+  background-image: url(img/DarkTint_bg_lvl4_ZOW.png);
+  /* background-position: top; */
 }
 
 .test {
@@ -156,7 +157,59 @@ nav ul li {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 35%;
+  width: 38%;
+  height: 48%;
   margin-left: 20%;
-  
+  object-fit: cover;
+  display: block;
+  position: relative;
+  top: 45%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+}
+
+.text-container {
+  background-color: rgb(255,255,255, 0.8);
+  padding-top: 4%;
+  padding-bottom: 4%;
+  padding-left: 3em;
+  border-radius: 35px;
+  width: 35%;
+  display: block;
+  position: relative;
+  top: 10%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+}
+
+.text-container h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    color: #333233;
+}
+
+.text-container p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 1000;
+  color: #262626;
+  margin-bottom: 25px;
+}
+
+@media only screen and (max-width: 1500px) {
+  .text-container {
+    width: 40%;
+  }
+
+}
+
+.main_btn {
+  color: #fff;
+  border-radius: 16px;
+  border: none;
+  padding: 10px;
+  width: 130px;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: bold;
+  background: linear-gradient(90deg, red, orange);
 }
