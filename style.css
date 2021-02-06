@@ -148,10 +148,6 @@ nav ul li {
   /* background-position: top; */
 }
 
-.test {
-  height: 1000px;
-}
-
 .hero_img {
   border-radius: 30px;
   display: block;
@@ -199,8 +195,9 @@ nav ul li {
   .text-container {
     width: 40%;
   }
-
 }
+
+/* buttons */
 
 .main_btn {
   color: #fff;
@@ -212,4 +209,107 @@ nav ul li {
   font-size: 17px;
   font-weight: bold;
   background: linear-gradient(90deg, red, orange);
+}
+
+.outline_btn {
+  /* background: linear-gradient(to right, #F13500, #FFB400);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+  padding: 10px;
+  width: 130px;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: bold;
+  border: 5px solid transparent;
+  border-image: linear-gradient(90deg, red, orange);
+  border-image-slice: 1;
+  border-radius: 16px; */
+
+  border-radius: 16px;
+  padding: 10px;
+  font-size: 17px;
+  padding: 7px 30px;
+  color: $color-black;
+
+  box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+  border: solid 5px transparent;
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, red, orange);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: 2px 1000px 1px #E8E8E8 inset;
+}
+
+/* text section */
+
+.text_section {
+  background-color: #E9EDF2;
+  padding: 4em;
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  color: #414141;
+}
+
+/* Our Team section */
+
+.Our_Team {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+.Our_Team h1 {
+  font-size: 40px;
+  margin: 80px 0 40px;
+  background: linear-gradient(90deg, #F13500, #FFB400);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.Our_Team p {
+  font-size: 29px;
+  margin: 40px 0 40px;
+  color: #414141;
+}
+
+.Our_Team hr {
+  width: 80px;
+  border: 0;
+  border-bottom: 5px solid #C7C7C7;
+  margin: auto;
+}
+
+/* Contact Us section */
+
+.Contact_Us {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  width: 65%;
+  margin: auto;
+  background: linear-gradient(#F5F5F5, #E4E4E4);
+  border-radius: 30px;
+  padding-top: 0.3em;
+  padding-bottom: 100px;
+}
+
+.Contact_Us h1 {
+  font-size: 40px;
+  margin: 80px 0 40px;
+  background: linear-gradient(90deg, #F13500, #FFB400);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.Contact_Us p {
+  font-size: 29px;
+  margin: 40px 0 40px;
+  color: #414141;
+}
+
+
+.test {
+  height: 1000px;
 }
