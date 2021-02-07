@@ -225,18 +225,30 @@ nav ul li {
   border-image-slice: 1;
   border-radius: 16px; */
 
-  border-radius: 16px;
   padding: 10px;
-  font-size: 17px;
-  padding: 7px 30px;
-  color: $color-black;
+  font-size: 18px;
+  padding: 6px 30px;
+  font-family: 'Poppins', sans-serif;
 
+  background: -webkit-linear-gradient(0deg, red, orange);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  border: transparent;
+  border-radius: 16px;
+}
+
+.outline_btn-container {
   box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
   border: solid 5px transparent;
   background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, red, orange);
   background-origin: border-box;
   background-clip: content-box, border-box;
   box-shadow: 2px 1000px 1px #E8E8E8 inset;
+  border-radius: 18px;
+
+  width: 144px;
+  margin: auto;
 }
 
 /* text section */
@@ -264,7 +276,7 @@ nav ul li {
 .Our_Team h1 {
   font-size: 40px;
   margin: 80px 0 40px;
-  background: linear-gradient(90deg, #F13500, #FFB400);
+  background: linear-gradient(0deg, #F13500, #FFB400);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
@@ -298,7 +310,7 @@ nav ul li {
 .Contact_Us h1 {
   font-size: 40px;
   margin: 80px 0 40px;
-  background: linear-gradient(90deg, #F13500, #FFB400);
+  background: linear-gradient(0deg, #F13500, #FFB400);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
