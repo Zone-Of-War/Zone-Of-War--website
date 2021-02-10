@@ -264,6 +264,13 @@ nav ul li {
   color: #414141;
 }
 
+@media only screen and (min-width: 1500px) {
+  .text_section {
+    padding-left: 13.5%;
+    padding-right: 13.5%;
+  }
+}
+
 /* Our Team section */
 
 .Our_Team {
@@ -401,7 +408,7 @@ hr {
 
 }
 
-.img_and_p2 p{
+.img_and_p2 p {
   background-color: #2A2A2A;
   color: #fff;
   font-size: 30px;
@@ -414,6 +421,48 @@ hr {
   top: 14em;
   transform: translate(-50%, -50%);
   z-index: 20;
+}
+
+/* responsive */
+@media only screen and (max-width: 1540px) {
+  .level_section h2 {
+    margin-top: 1.5em;
+  }
+
+  .Game_Ideology hr {
+    margin-bottom: -3em;
+  }
+
+  .level_section p {
+    font-size: 23px;
+  }
+
+  .img_and_p1 {
+    margin-top: 4.5em;
+  }
+
+  .img_and_p2 {
+    margin-top: 2em;
+  }
+}
+
+@media only screen and (max-width: 1210px) {
+  .level_section p {
+    font-size: 18px;
+  }
+
+  .img_and_p1 {
+    /* margin-top: 3em; */
+  }
+
+  .img_and_p2 {
+    margin-top: 2.7em;
+    margin-bottom: -7.7em;
+  }
+
+  .Game_Ideology {
+    padding-bottom: 10em;
+  }
 }
 
 /* footer section */
