@@ -9,15 +9,24 @@ body{
 
 /* Navbar */
 
+/* on scroll */
+
+.scrolling-active {
+  background-color: #1A1A1A;
+  height: 80px;
+}
+
 header {
   width: 100%;
   position: fixed;
   padding-left: 7em;
   padding-right: 7em;
-  margin: 20px auto;
-  z-index: 1;
+  /* margin: 20px auto; */
+  height: 80px;
+  z-index: 9999999;
   display: flex;
   align-items: center;
+  transition-duration: .3s;
 }
 
 nav {
@@ -51,7 +60,7 @@ nav ul li {
 }
 
 .nav__links li a:hover {
-  color: #000;
+  color: #929292;
 }
 
 .cta {

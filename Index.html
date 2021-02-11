@@ -15,6 +15,9 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
+
+      <!-- navbar -->
+
         <header>
           <img class="ZOW_logo" src="img/ZOF_TEXT_1.png" alt="logo of ZoneofWar">
             <nav>
@@ -37,7 +40,14 @@
         </div>
         <script type="text/javascript" src="app.js"></script>
         <script type="text/javascript" src="ImgSilde.js"></script>
-    </body>
+
+        <script>
+          window.addEventListener('scroll', function () {
+            let header = document.querySelector('header');
+            let windowPosition = window.scrollY > 5;
+            header.classList.toggle('scrolling-active', windowPosition);
+          })
+        </script>
 
     <!-- 1. section -->
 
@@ -156,4 +166,5 @@
       <p>ZoneofWar © 2021</p>
     </footer>
 
+  </body>
 </html>
