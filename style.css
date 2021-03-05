@@ -205,6 +205,22 @@ nav ul li {
   .text-container {
     width: 40%;
   }
+
+
+}
+
+@media only screen and (max-width: 1350px) {
+  .hero_img {
+    height: 35%;
+  }
+
+  .text-container {
+    height
+  }
+
+  * {
+    color: red;
+  }
 }
 
 /* buttons */
@@ -516,7 +532,13 @@ footer p {
 
 
 .about_us-section {
-  padding-top: 9em;
+  padding-top: 12em;
+  padding-bottom: 25em;
+
+  background-image: url(img/ZOW_AboutUs-bg.png);
+  background-repeat: no-repeat;
+  background-size: 1250px;
+  background-position:  center;
 }
 
 .about_us-section h1 {
@@ -540,10 +562,26 @@ footer p {
   margin-left:8px;
 }
 
-.about_us-section p {
-  padding-top: 4em;
+.about_us-p_wrapper {
+  padding-top: 6em;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+
+  margin: 0 auto;
+  width: 290px;
+
 }
 
-.tests {
-  height: 35em;
+.first_p {
+  margin-left: -80%;
 }
+
+.second_p {
+  margin-right: -80%;
+  padding-top: 8em;
+  text-align: right;
+}
+
+
+
+/* phone size responsiveness */
