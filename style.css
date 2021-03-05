@@ -585,3 +585,23 @@ footer p {
 
 
 /* phone size responsiveness */
+
+
+/* download page */
+
+.download-section {
+  padding-top: 12em;
+}
+
+.download-content h1 {
+  font-family: "Montserrat", sans-serif;
+
+  margin: 3em 0 0.5em;
+  color: #4E4E4E;
+  font-size: 27px;
+  /* font-weight: 7000; */
+}
+
+.Download-center {
+  text-align: center;
+}
