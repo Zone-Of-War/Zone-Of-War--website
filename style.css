@@ -530,7 +530,7 @@ footer p {
   background-color: #2A2A2A;
 }
 
-
+/* about us page */
 .about_us-section {
   padding-top: 12em;
   padding-bottom: 25em;
@@ -604,4 +604,83 @@ footer p {
 
 .Download-center {
   text-align: center;
+}
+
+/* Contact page */
+
+.contact-spacing {
+  padding-bottom: 5em;
+}
+
+.contact-section {
+  max-width: 80em;
+  width: 55%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  margin: auto;
+  text-align: center;
+  border-radius: 20px;
+  padding-bottom: 9em;
+  /* margin-bottom: 15em; */
+}
+
+/* for input placeholder text colors */
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #BBBBBB;
+  opacity: 1; /* Firefox */
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #BBBBBB;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #BBBBBB;
+}
+
+.contact-section h1 {
+  font-size: 40px;
+  padding-top: 1em;
+  margin: 80px 0 40px;
+  background: linear-gradient(0deg, #F13500, #FFB400);
+	-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contact_inputs {
+  margin: 0 auto;
+  width: 37em;
+  margin-top: 4em;
+  margin-bottom: 2em;
+}
+
+.top_input {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top_input input {
+  width: 45%;
+  padding-bottom: 10px;
+}
+
+.contact_inputs input{
+  border: none;
+  border-bottom: 2px solid #AAAAAA;
+}
+
+.contact_last-input {
+  margin-top: 2em;
+  width: 100%;
+  padding-bottom: 7.5em;
+}
+
+.contact_button {
+  position: absolute;
+  right: 0px;
+  width: 55em;
+  margin-top: 2em;
+  margin-right: 5.5em;
+}
+
+.contact_btn-nobg {
+  box-shadow: 2px 1000px 1px rgb(255, 255, 255) inset;
 }
