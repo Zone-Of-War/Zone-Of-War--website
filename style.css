@@ -184,9 +184,10 @@ nav ul li {
 .text-container {
   background-color: rgb(255,255,255, 0.8);
 
-  padding-top: 7%;
-  padding-bottom: 7%;
+  padding-top: 4.5%;
+  padding-bottom: 4.5%;
   padding-left: 4.5em;
+  padding-right: 4.5em;
   border-radius: 35px;
   width: 45%;
   /* height: 60%; */
@@ -261,6 +262,7 @@ nav ul li {
     top: 0%;
     width: 50%;
   }
+  
 }
 
 @media only screen and (max-width: 1050px) {
@@ -280,6 +282,7 @@ nav ul li {
   .text-container h1 {
     font-size: 31px;
   }
+  
 }
 
 @media only screen and (max-width: 600px) {
@@ -306,9 +309,10 @@ nav ul li {
     visibility: hidden;
   }
 
-  * {
-    /* background-color: rgb(202, 202, 202); */
-  }
+  /* * {
+    background-color: rgb(202, 202, 202);
+  } */
+  
 }
 
 /* buttons */
