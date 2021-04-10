@@ -297,21 +297,28 @@ nav ul li {
   }
 
   .text-container {
-    padding-left: 0;
+    /* padding-left: 25px;
+    padding-right: 25px; */
     text-align: center;
+    padding-right: 0em;
+    padding-left: 1em;
     left: 50%;
     width: 80%;
     /* bottom: 0em; */
     background: linear-gradient(#F5F5F5, #CACACA);
   }
 
+  .text-container h1 {
+    white-space: nowrap;
+  }
+
   .hero_img {
     visibility: hidden;
   }
 
-  /* * {
-    background-color: rgb(202, 202, 202);
-  } */
+  * {
+    /* background-color: rgb(202, 202, 202); */
+  }
   
 }
 
@@ -421,6 +428,20 @@ hr {
   margin: auto;
 }
 
+/* our team responsiveness ___________________________________________________*/
+
+@media only screen and (max-width: 600px) {
+
+  .Our_Team {
+    width: 80%;
+  }
+
+  .Our_Team p {
+    font-size: 20px;
+  }
+
+}
+
 /* Contact Us section */
 
 .Contact_Us {
@@ -447,6 +468,21 @@ hr {
   margin: 40px 0 40px;
   color: #414141;
 }
+
+/* contact us responsiveness ___________________________________________________*/
+
+@media only screen and (max-width: 600px) {
+  .Contact_Us {
+    width: 100%;
+    border-radius: 0;
+  }
+
+  .Contact_Us p {
+    font-size: 20px;
+  }
+
+}
+
 
 /* game ideology */
 
@@ -540,6 +576,14 @@ hr {
   top: 14em;
   transform: translate(-50%, -50%);
   z-index: 20;
+}
+
+/* contact us responsiveness ___________________________________________________*/
+
+@media only screen and (max-width: 600px) {
+  .Game_Ideology {
+    background: none;
+  }
 }
 
 /* responsive */
