@@ -526,6 +526,53 @@ hr {
   color: #414141;
 }
 
+/* new contact section */
+
+.contact-top_inputs {
+  display: flex;
+  justify-content: space-between;
+  /* justify-content: center; */
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+.contact-input_wrapper input, textarea{
+  border: none;
+  border-bottom: 2px solid #AAAAAA;
+  padding: 10px;
+}
+
+.contact-input_wrapper textarea {
+  width: 80%;
+  max-width: 80%;
+  min-width: 80%;
+  min-height: 3em;
+  height: 10em;
+  margin-top: 2em;
+  font-family: "Montserrat", sans-serif;
+}
+
+.contact-input_wrapper input {
+  width: 20vw;
+  max-width: 27em;
+  /* padding-right: 50%; */
+}
+
+.contact-section label {
+  /* visibility: hidden; */
+  display: none;
+}
+
+@media only screen and (min-width: 1700px) {
+  .contact-input_wrapper textarea {
+    height: 14em;
+  }
+  .contact-input_wrapper {
+    margin-top: 1.5em;
+  }
+}
+
+
 /* contact us responsiveness ___________________________________________________*/
 
 @media only screen and (max-width: 600px) {
@@ -843,14 +890,14 @@ footer p {
   text-align: center;
 }
 
-/* Contact page */
+/* Contact page ------------------------------------------------------------ */
 
 .contact-spacing {
   padding-bottom: 5em;
 }
 
 .contact-section {
-  max-width: 80em;
+  max-width: 60em;
   width: 55%;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
   margin: auto;
@@ -913,9 +960,10 @@ footer p {
 .contact_button {
   position: absolute;
   right: 0px;
-  width: 55em;
+  /* width: 55em; */
   margin-top: 2em;
-  margin-right: 5.5em;
+  
+  margin-right: 30%;
 }
 
 .contact_btn-nobg {

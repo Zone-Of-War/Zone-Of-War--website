@@ -37,7 +37,7 @@
 
     <div class="contact-spacing"></div>
 
-    <section class="contact-section">
+    <!-- <section class="contact-section">
         <div>
             <h1>Contact Us</h1>
             <div class="contact_inputs">
@@ -53,39 +53,43 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
       
-    <!-- Code for the Contact-->
+    <!-- new working contact below-->
       
-    <section>
+    <section class="contact-section">
       <div>
         <form action="https://formspree.io/f/mjvjkbrr" method="POST" id="my-form">
-    
-          <div>
-            <label for="firstName"> First Name</label>
-            <input type="text" id="firstName" name="firstName">
+          <h1>Contact Us</h1>
+          <div class="contact-top_inputs">
+            <div class="contact-input_wrapper">
+              <label for="firstName">First Name</label>
+              <input placeholder="First Name" type="text" id="firstName" name="firstName">
+            </div>
+            <!-- removed last name -->
+            <!-- <div>
+              <label for="latsName">Last Name</label>
+              <input type="text" id="lastName" name="lastName">
+            </div> -->
+            <div class="contact-input_wrapper">
+              <label for="email">Email</label>
+              <input placeholder="E-mail" type="email" id="email" name="email">
+            </div>
           </div>
-    
-          <div>
-            <label for="latsName">Last Name</label>
-            <input type="text" id="lastName" name="lastName">
-          </div>
-    
-          <div">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email">
-          </div>
-    
-          <div>
+          <div class="contact-input_wrapper">
             <label for="massage">Massage</label>
-            <textarea name="massage" id="massage" cols="30" rows="10"></textarea>
+            <textarea placeholder="Your message" name="massage" id="massage" cols="30" rows="10"></textarea>
           </div>
-    
-          <button type="submit">Submit</button>
+          <div class="contact_button">
+              <div class="outline_btn-container contact_btn-nobg">
+                  <button class="outline_btn" type="submit">Submit</button>
+              </div>
+          </div>
         </form>
       </div>
       <div id="status"></div>
     </section>
+
 
 
     <!-- <footer>
